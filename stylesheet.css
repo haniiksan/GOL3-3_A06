@@ -189,6 +189,68 @@ header {
     box-shadow: none;
 }
 
+/* BAGIAN CONTENT 1 */
+.content-one {
+    padding-bottom: 150px;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: rgba(255, 255, 255, 0.3);
+    text-align: center;
+}
+
+.type-box {
+    float: left;
+    width: 25%;
+    /* ini buat ngasih tau ke browser kalau clas ini menggunakan animasi */
+    transition: all 0.3s ease;
+    height: 200px;
+}
+
+/* ini untuk animasi hover di div dengan class type-box,
+  jadi pas mouse hover, langsung jalanin animasi */
+.type-box:hover {
+    -webkit-transform: scale(1.4);
+    -ms-transform: scale(1.4);
+    transform: scale(1.4);
+}
+
+.type-box p {
+    color: #333;
+}
+.type-icon h2{
+    color: #04293A;
+}
+
+.type-icon {
+    position: relative;
+}
+
+.type-icon i {
+    font-size: 5em;
+    color:#f7f7f7;
+}
+
+.circle-icon {
+    background: #F9813A;
+    padding: 30px;
+    text-align: center;
+    border-radius: 40%;
+}
+
+.text-contents {
+    width: 80%;
+    display: inline-block;
+    margin-top: 15px;
+    font-size: 15px;
+    color: #b3aeb5;
+}
+
+.heading h3 {
+    font-weight: normal;
+}
+
+/* END BAGIAN CONTENT 1 */
+
 footer img {
     width: 125px;
 }
