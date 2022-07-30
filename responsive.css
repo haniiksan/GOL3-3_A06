@@ -1,0 +1,51 @@
+/* this is for responsive css template */
+/* Untuk Tablet */
+@media all and (max-width: 1000px) {
+    .type-box {
+      width: 50%;
+      margin-bottom: 50px;
+    }
+    
+    .heading h2 {
+        font-weight: bold;
+        font-size: 30px;
+    }
+
+  }
+  
+  /* Untuk Smartphone */
+  @media all and (max-width: 670px) {
+    .type-box {
+      width: 100%;
+    }
+
+    .top-wrapper{
+      height: 50%;
+    }
+    
+    .top-wrapper p {
+      font-size: 14px;
+      line-height: 20px;
+    }
+
+    .utama-content{
+      flex-direction: column;
+    }
+
+    .content-kiri img {
+      padding: 20px;
+    }
+
+    footer img{
+      margin : 0 auto;
+    }
+
+    .menu-icon{
+      display: block;
+    }
+
+    .header-right{
+      display: none;
+    }
+
+  }
