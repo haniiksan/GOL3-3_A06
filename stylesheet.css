@@ -255,17 +255,58 @@ header {
 /* END BAGIAN CONTENT 1 */
 
 
-
+/* BAGIAN FOOTER */
 footer img {
+    float: left;
     width: 125px;
 }
 
-footer p {
-    color: #b3aeb5;
-    font-size: 12px;
-}
 
 footer {
     padding-top: 30px;
     padding-bottom: 20px;
+    background-color: rgba(34, 49, 52, 0.9);
+    height: 200px;
+    
 }
+
+.footer-right{
+    float: right;
+    width: 30%;
+}
+.footer-company-about{
+	line-height: 20px;
+	color:  #92999f;
+	font-size: 13px;
+	font-weight: normal;
+	margin: 0;
+}
+
+.footer-company-about span{
+    display: block;
+	color:  #ffffff;
+	font-size: 18px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+.footer-icons{
+	margin-top: 25px;
+}
+
+.footer-icons a{
+    display: inline-block;
+	width: 35px;
+	height: 35px;
+	cursor: pointer;
+	background-color:  #F9813A;
+	border-radius: 2px;
+	font-size: 20px;
+	color: #ffffff;
+	text-align: center;
+	line-height: 35px;
+	margin-right: 3px;
+	margin-bottom: 5px;
+}
+
+/* END FOOTER */
