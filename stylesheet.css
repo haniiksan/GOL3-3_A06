@@ -170,18 +170,23 @@ header {
     font-weight: normal;
 }
 
+ 
+
 .message-wrapper {
     border-bottom: 1px solid #eee;
     padding-bottom: 80px;
     text-align: center;
 }
 
+/*----- Jauhari edit --------*/
 .message {
     padding: 15px 40px;
-    background-color: #5dca88;
+    background-color: #e27563;
     cursor: pointer;
-    box-shadow: 0 7px #1a7940;
-}
+    box-shadow: 0 7px #cd5a64;
+  }
+  
+  /*----------------------*/
 
 .message:active {
     position: relative;
@@ -189,11 +194,9 @@ header {
     box-shadow: none;
 }
 
-/* BAGIAN CONTENT 1 */
+/* BAGIAN CONTENT 1 : Ifuk Permana */
 .content-one {
-    padding-bottom: 150px;
-    padding-left: 5%;
-    padding-right: 5%;
+    padding: 5%;
     background-color: rgba(255, 255, 255, 0.3);
     text-align: center;
 }
@@ -203,7 +206,7 @@ header {
     width: 25%;
     /* ini buat ngasih tau ke browser kalau clas ini menggunakan animasi */
     transition: all 0.3s ease;
-    height: 200px;
+    margin-bottom: 50px;
 }
 
 /* ini untuk animasi hover di div dengan class type-box,
@@ -226,7 +229,7 @@ header {
 }
 
 .type-icon i {
-    font-size: 5em;
+    font-size: 3em;
     color:#f7f7f7;
 }
 
@@ -234,7 +237,7 @@ header {
     background: #F9813A;
     padding: 30px;
     text-align: center;
-    border-radius: 40%;
+    border-radius: 50%;
 }
 
 .text-contents {
@@ -250,6 +253,8 @@ header {
 }
 
 /* END BAGIAN CONTENT 1 */
+
+
 
 footer img {
     width: 125px;
